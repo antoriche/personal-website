@@ -21,12 +21,38 @@ navLinks.querySelectorAll('a').forEach(link => {
 });
 
 /* ============================================================
+   SMOOTH SCROLL — only for navigation links
+   ============================================================ */
+function smoothScrollTo(target) {
+  const element = document.querySelector(target);
+  if (element) {
+    const navHeight = nav.offsetHeight;
+    const targetPosition = element.getBoundingClientRect().top + window.pageYOffset - navHeight;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  }
+}
+
+// Apply smooth scroll to all anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', (e) => {
+    const href = anchor.getAttribute('href');
+    if (href && href !== '#' && document.querySelector(href)) {
+      e.preventDefault();
+      smoothScrollTo(href);
+    }
+  });
+});
+
+/* ============================================================
    TYPEWRITER EFFECT
    ============================================================ */
 const phrases = [
-  'Full-Stack Developer',
-  'UI/UX Designer',
-  'Open Source Contributor',
+  'Full-Stack Engineer',
+  'Frontend Developer',
+  'AI Integration Specialist',
   'Problem Solver',
 ];
 const el = document.getElementById('typewriter');
