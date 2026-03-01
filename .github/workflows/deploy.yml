@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - claude/personal-website-github-pages-So5NS
   workflow_dispatch:
 
 permissions:
