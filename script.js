@@ -1,12 +1,36 @@
 /* ============================================================
+   SCROLL TO TOP ON REFRESH (unless anchor)
+   ============================================================ */
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+// Only scroll to top if there's no hash in URL
+if (!window.location.hash) {
+  window.scrollTo(0, 0);
+}
+
+/* ============================================================
    NAV — scroll state + mobile toggle
    ============================================================ */
 const nav = document.getElementById('nav');
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
+const heroScroll = document.querySelector('.hero__scroll');
+let userHasScrolled = false;
+
+// Check initial scroll position (could be non-zero due to anchor links)
+if (heroScroll) {
+  heroScroll.classList.toggle('hidden', window.scrollY > 0);
+}
 
 window.addEventListener('scroll', () => {
   nav.classList.toggle('scrolled', window.scrollY > 20);
+  
+  // Permanently hide scroll indicator once user scrolls
+  if (heroScroll && !userHasScrolled && window.scrollY > 0) {
+    userHasScrolled = true;
+    heroScroll.classList.add('hidden');
+  }
 });
 
 navToggle.addEventListener('click', () => {
@@ -100,6 +124,7 @@ const observer = new IntersectionObserver(
 // Apply to key elements after DOM is ready
 const animTargets = [
   '.about__grid',
+  '.career__card',
   '.skill-card',
   '.project-card',
   '.contact__grid',

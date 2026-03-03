@@ -217,11 +217,6 @@ input, textarea, button { font-family: inherit; }
   border: 4px solid var(--accent);
   box-shadow: 0 8px 32px rgba(9, 105, 218, 0.2);
   object-fit: cover;
-  transition: all var(--transition);
-}
-.hero__profile-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 40px rgba(9, 105, 218, 0.3);
 }
 .hero__greeting {
   font-family: var(--font-mono);
@@ -261,6 +256,35 @@ input, textarea, button { font-family: inherit; }
   flex-wrap: wrap;
   margin-bottom: 48px;
 }
+.hero__links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero__resume-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all var(--transition);
+}
+.hero__resume-link svg {
+  width: 18px;
+  height: 18px;
+}
+.hero__resume-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-glow);
+  transform: translateY(-2px);
+}
 .hero__socials {
   display: flex;
   gap: 20px;
@@ -294,6 +318,13 @@ input, textarea, button { font-family: inherit; }
   gap: 8px;
   cursor: pointer;
   will-change: transform;
+  opacity: 1;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.hero__scroll.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(10px);
 }
 .hero__scroll a {
   display: flex;
@@ -301,7 +332,6 @@ input, textarea, button { font-family: inherit; }
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  animation: bounceDown 2s ease-in-out infinite;
 }
 .hero__scroll-icon {
   width: 24px;
@@ -346,18 +376,18 @@ input, textarea, button { font-family: inherit; }
 @keyframes scrollDot {
   0% {
     opacity: 0;
-    transform: translateX(-50%) translateY(-2px);
+    transform: translateX(-50%) translateY(16px);
   }
   40% {
     opacity: 1;
   }
   80% {
     opacity: 0;
-    transform: translateX(-50%) translateY(16px);
+    transform: translateX(-50%) translateY(-2px);
   }
   100% {
     opacity: 0;
-    transform: translateX(-50%) translateY(16px);
+    transform: translateX(-50%) translateY(-2px);
   }
 }
 @keyframes bounceDown {
@@ -462,6 +492,148 @@ input, textarea, button { font-family: inherit; }
   color: var(--accent);
 }
 .about__fact span { font-size: 0.82rem; color: var(--text-muted); }
+
+/* ============================================================
+   CAREER
+   ============================================================ */
+.career__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.career__card {
+  border-radius: var(--radius);
+  padding: 32px;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.career__card:hover {
+  transform: translateY(-4px);
+}
+
+/* --- Spring Financial: green mint theme --- */
+.career__card--spring {
+  background: linear-gradient(135deg, #e8faf0 0%, #f0fdf5 50%, #e0f7ec 100%);
+  border: 1px solid #a7e8c3;
+}
+.career__card--spring:hover {
+  border-color: #34d07b;
+  box-shadow: 0 12px 32px rgba(52, 208, 123, 0.15);
+}
+.career__card--spring .career__role {
+  color: #1a9d57;
+}
+.career__card--spring .career__highlights li::before {
+  color: #1a9d57;
+}
+.career__card--spring .tag {
+  background: rgba(26, 157, 87, 0.08);
+  border-color: rgba(26, 157, 87, 0.25);
+  color: #1a9d57;
+}
+
+/* --- Jetpack.ai: clean white theme --- */
+.career__card--jetpack {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+.career__card--jetpack:hover {
+  border-color: var(--accent);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+}
+
+/* --- Logo area --- */
+.career__card-logo {
+  margin-bottom: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.career__card-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.career__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.career__company {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.career__role {
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.career__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.career__dates {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.career__location {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.career__desc {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.career__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.career__highlights li {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  padding-left: 18px;
+  position: relative;
+}
+
+.career__highlights li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.8rem;
+}
+
+.career__tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
 
 /* ============================================================
    SKILLS
@@ -671,6 +843,9 @@ input, textarea, button { font-family: inherit; }
   .about__grid { grid-template-columns: 1fr; gap: 40px; }
   .about__image-wrap { order: -1; }
   .about__image { width: 220px; height: 220px; }
+  .career__grid { grid-template-columns: 1fr; }
+  .career__card-header { flex-direction: column; }
+  .career__meta { align-items: flex-start; }
   .projects__grid { grid-template-columns: 1fr; }
   .project-card--featured { grid-template-columns: 1fr; }
   .contact__grid { grid-template-columns: 1fr; gap: 40px; }

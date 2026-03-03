@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links":
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#ajax-content-wrap"
+  - generic [ref=e4]:
+    - banner "Main Menu" [ref=e6]:
+      - generic [ref=e8]:
+        - link "Jetpack.AI Jetpack.AI Jetpack.AI" [ref=e10] [cursor=pointer]:
+          - /url: https://jetpack.ai
+          - img "Jetpack.AI" [ref=e11]
+          - img "Jetpack.AI" [ref=e12]
+          - img "Jetpack.AI" [ref=e13]
+        - navigation "Main Menu" [ref=e15]:
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Home" [ref=e18] [cursor=pointer]:
+                - /url: https://jetpack.ai/
+            - listitem [ref=e19]:
+              - link "Energy" [ref=e20] [cursor=pointer]:
+                - /url: https://jetpack.ai/strata/
+            - listitem [ref=e21]:
+              - link "Airport" [ref=e22] [cursor=pointer]:
+                - /url: https://jetpack.ai/airport/
+                - text: Airport
+                - generic [ref=e24]: 
+              - list:
+                - listitem:
+                  - link "Energy":
+                    - /url: https://jetpack.ai/strata/
+                - listitem:
+                  - link "Polaris":
+                    - /url: https://jetpack.ai/polaris/
+            - listitem [ref=e25]:
+              - link "About us" [ref=e26] [cursor=pointer]:
+                - /url: https://jetpack.ai/about-us/
+            - listitem [ref=e27]:
+              - link "Contact" [ref=e28] [cursor=pointer]:
+                - /url: https://jetpack.ai/contact/
+    - generic [ref=e29]:
+      - main [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Putting AI to work in your operations" [level=1] [ref=e46]:
+            - generic [ref=e48]: Putting
+            - generic [ref=e50]: AI
+            - generic [ref=e52]: to
+            - generic [ref=e54]: work
+            - generic [ref=e56]: in
+            - generic [ref=e58]: your
+            - generic [ref=e60]: operations
+          - generic [ref=e65]:
+            - generic [ref=e68]:
+              - heading "Transform your teams’ day-to-day work with tailored AI and data solutions" [level=3] [ref=e77]
+              - button "Start a project" [ref=e83] [cursor=pointer]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: S
+                  - generic [ref=e86]: t
+                  - generic [ref=e87]: a
+                  - generic [ref=e88]: r
+                  - generic [ref=e89]: t
+                  - generic [ref=e90]: a
+                  - generic [ref=e91]: p
+                  - generic [ref=e92]: r
+                  - generic [ref=e93]: o
+                  - generic [ref=e94]: j
+                  - generic [ref=e95]: e
+                  - generic [ref=e96]: c
+                  - generic [ref=e97]: t
+            - 'heading "We are solving operational challenges. Beyond the development of sophisticated algorithms, we are driven by the adoption of our solutions on the field. To truly turn your business AI-driven, we leverage a powerful synergy of data and technology talents: web application developers, data engineers, data scientists, cloud and solution architects" [level=3] [ref=e102]':
+              - strong [ref=e103]: We are solving operational challenges. B
+              - strong [ref=e104]: eyond the development of sophisticated algorithms, we are driven by the adoption of our solutions on the field.
+              - strong [ref=e105]: "To truly turn your business AI-driven, we leverage a powerful synergy of data and technology talents: web application developers, data engineers, data scientists, cloud and solution architects"
+          - generic [ref=e111]:
+            - heading "Your full service partner for data & AI expertise" [level=2] [ref=e116]
+            - button "Contact Us " [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: Contact Us
+              - generic [ref=e129]: 
+          - generic [ref=e137]:
+            - heading "Our services" [level=2] [ref=e146]:
+              - generic [ref=e147]:
+                - generic [ref=e148]: O
+                - generic [ref=e149]: u
+                - generic [ref=e150]: r
+              - generic [ref=e151]:
+                - generic [ref=e152]: s
+                - generic [ref=e153]: e
+                - generic [ref=e154]: r
+                - generic [ref=e155]: v
+                - generic [ref=e156]: i
+                - generic [ref=e157]: c
+                - generic [ref=e158]: e
+                - generic [ref=e159]: s
+            - generic [ref=e171]:
+              - generic [ref=e174]:
+                - heading "AI & Data Science" [level=2] [ref=e176]
+                - heading "Deploying cutting-edge AI models to boost your operations" [level=3] [ref=e178]
+              - heading "1" [level=2] [ref=e183]:
+                - generic [ref=e185]: "1"
+            - generic [ref=e197]:
+              - generic [ref=e200]:
+                - heading "Software Development" [level=2] [ref=e202]
+                - heading "Creation of custom analytical application developed to fit your specific needs" [level=3] [ref=e204]
+              - heading "2" [level=2] [ref=e209]:
+                - generic [ref=e211]: "2"
+            - generic [ref=e223]:
+              - generic [ref=e226]:
+                - heading "Data Operations" [level=2] [ref=e228]
+                - heading "Streamlining your data pipelines in state-of-the art cloud environments" [level=3] [ref=e230]
+              - heading "3" [level=2] [ref=e235]:
+                - generic [ref=e237]: "3"
+            - generic [ref=e249]:
+              - generic [ref=e252]:
+                - heading "User Interfaces & Data vizualisation" [level=2] [ref=e254]
+                - heading "Ergonomic interfaces with easy-to-understand representations of complex data" [level=3] [ref=e256]
+              - heading "4" [level=2] [ref=e261]:
+                - generic [ref=e263]: "4"
+          - generic [ref=e269]:
+            - heading "Learn more about us" [level=2] [ref=e274]
+            - button "Meet the team " [ref=e285] [cursor=pointer]:
+              - generic [ref=e286]: Meet the team
+              - generic [ref=e287]: 
+          - heading "Organisations and companies we are collaborating with" [level=4] [ref=e297]
+          - generic [ref=e306]:
+            - link "client" [ref=e308] [cursor=pointer]:
+              - /url: https://www.resa.be/fr/
+              - img "client" [ref=e309]
+            - link "client" [ref=e311] [cursor=pointer]:
+              - /url: https://www.lagardere-tr.com/en/
+              - img "client" [ref=e312]
+            - link "client" [ref=e314] [cursor=pointer]:
+              - /url: https://aftermarket.zf.com/fr/portail-aftermarket/nos-marques/wabco/
+              - img "client" [ref=e315]
+            - link "client" [ref=e317] [cursor=pointer]:
+              - /url: https://www.icedd.be/en/
+              - img "client" [ref=e318]
+            - link "client" [ref=e320] [cursor=pointer]:
+              - /url: https://commission.europa.eu/index_en
+              - img "client" [ref=e321]
+            - link "client" [ref=e323] [cursor=pointer]:
+              - /url: https://www.visitflanders.com/en
+              - img "client" [ref=e324]
+            - link "client" [ref=e326] [cursor=pointer]:
+              - /url: https://www.stokke.com/BEL/fr-be/home
+              - img "client" [ref=e327]
+            - link "client" [ref=e329] [cursor=pointer]:
+              - /url: https://www.starbucks.com/
+              - img "client" [ref=e330]
+            - link "client" [ref=e332] [cursor=pointer]:
+              - /url: https://spw.wallonie.be/
+              - img "client" [ref=e333]
+            - link "client" [ref=e335] [cursor=pointer]:
+              - /url: https://www.serasaexperian.com.br/
+              - img "client" [ref=e336]
+            - link "client" [ref=e338] [cursor=pointer]:
+              - /url: https://www.partenamut.be/fr
+              - img "client" [ref=e339]
+            - img "client" [ref=e341]
+            - link "client" [ref=e343] [cursor=pointer]:
+              - /url: https://www.proximus.be/
+              - img "client" [ref=e344]
+            - link "client" [ref=e346] [cursor=pointer]:
+              - /url: https://europeanclimate.org/
+              - img "client" [ref=e347]
+            - link "client" [ref=e349] [cursor=pointer]:
+              - /url: https://www.cbsnews.com/
+              - img "client" [ref=e350]
+          - heading "Member of" [level=4] [ref=e360]
+          - generic [ref=e369]:
+            - link "Cluster Tweed" [ref=e371] [cursor=pointer]:
+              - /url: https://clusters.wallonie.be/tweed/en
+              - img "Cluster Tweed" [ref=e372]
+            - link "Agoria" [ref=e374] [cursor=pointer]:
+              - /url: https://www.agoria.be/en
+              - img "Agoria" [ref=e375]
+            - link "eurelectric" [ref=e377] [cursor=pointer]:
+              - /url: https://www.eurelectric.org/
+              - img "eurelectric" [ref=e378]
+          - generic [ref=e386]:
+            - generic [ref=e390]:
+              - heading "Putting AI to work in your operations" [level=2] [ref=e395]:
+                - generic [ref=e397]: Putting
+                - generic [ref=e399]: AI
+                - generic [ref=e401]: to
+                - generic [ref=e403]: work
+                - generic [ref=e405]: in
+                - generic [ref=e407]: your
+                - generic [ref=e409]: operations
+              - generic [ref=e413]:
+                - heading "JETPACK.AI info@jetpack.ai" [level=5] [ref=e414]:
+                  - text: JETPACK.AI
+                  - text: info@jetpack.ai
+                - paragraph [ref=e415]:
+                  - text: Jetpack SRL/BV
+                  - text: "VAT: BE 0675.441.088"
+              - generic [ref=e419]:
+                - paragraph [ref=e420]:
+                  - strong [ref=e421]: Head Office
+                  - text: Av. Victor Jacobs, 78
+                  - text: B-1040 Brussels (Etterbeek)
+                - paragraph [ref=e422]:
+                  - text: Esplanade Simone Veil, 1
+                  - text: B-4000 Liège
+                - paragraph [ref=e423]:
+                  - text: Luchthaven Brussel Nationaal 1M
+                  - text: B-1930 Zaventem
+            - generic [ref=e427]:
+              - heading "contact us" [level=6] [ref=e432]:
+                - button "contact us" [ref=e434] [cursor=pointer]:
+                  - generic [ref=e435]: contact us
+                  - img [ref=e436]
+              - generic [ref=e441]:
+                - generic [ref=e443]:
+                  - link "Linkedin" [ref=e444] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/jetpack-data-science/
+                    - generic [ref=e445]: Linkedin
+                  - generic [ref=e446]: 
+                - paragraph [ref=e448]:
+                  - text: Legal |
+                  - link "Cookie policy" [ref=e449] [cursor=pointer]:
+                    - /url: https://jetpack.ai/cookie-policy/
+                  - text: "|"
+                  - link "Privacy policy" [ref=e450] [cursor=pointer]:
+                    - /url: https://jetpack.ai/privacy-policy/
+                  - text: "|"
+                  - link "Terms of use" [ref=e451] [cursor=pointer]:
+                    - /url: https://jetpack.ai/terms-of-use/
+      - contentinfo [ref=e452]:
+        - generic [ref=e461]:
+          - paragraph [ref=e463]: © 2026 Jetpack.AI. SRL/BV
+          - generic [ref=e464]:
+            - list
+    - button "Back to top" [ref=e467] [cursor=pointer]:  
+  - dialog "Cookie Notice" [ref=e468]:
+    - generic [ref=e469]:
+      - generic [ref=e470]: We use cookies to improve your experience. By continuing to use our site, you accept our use of cookies.
+      - generic [ref=e471]:
+        - button "OK" [ref=e472] [cursor=pointer]
+        - button "Refuse" [ref=e473] [cursor=pointer]
+        - button "Politique de confidentialité" [ref=e474] [cursor=pointer]
+      - button "Refuse" [ref=e475] [cursor=pointer]

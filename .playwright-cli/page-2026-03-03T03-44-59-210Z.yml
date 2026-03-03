@@ -1,0 +1,476 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: https://springfinancial.ca
+        - navigation "Menu" [ref=e9]:
+          - generic "Menu Toggle" [ref=e10]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - generic [ref=e13]:
+                  - generic [ref=e14]:
+                    - generic [ref=e15]:
+                      - img [ref=e16]
+                      - img [ref=e19]
+                    - generic [ref=e21]: Products
+                  - button "Open Products":
+                    - generic [ref=e22] [cursor=pointer]: Open Products
+              - listitem [ref=e23]:
+                - generic [ref=e24]:
+                  - generic [ref=e25]:
+                    - generic [ref=e26]:
+                      - img [ref=e27]
+                      - img [ref=e30]
+                    - generic [ref=e32]: Company
+                  - button "Open Company":
+                    - generic [ref=e33] [cursor=pointer]: Open Company
+              - listitem [ref=e34]:
+                - link "Blog" [ref=e36] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/blog/
+                  - generic [ref=e37]: Blog
+              - listitem [ref=e38]:
+                - link "Help & Support" [ref=e40] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/help-centre
+                  - generic [ref=e41]: Help & Support
+      - generic [ref=e42]:
+        - link "Apply Now" [ref=e44] [cursor=pointer]:
+          - /url: https://www.springfinancial.ca/apply/personal-loans
+          - generic [ref=e46]: Apply Now
+        - text: Flexible loans from $500 up to $35,000. Improve your credit profile and unlock new opportunities. Buy vehicles from private sellers with fast, flexible financing. Refinance or unlock your home’s value. Giving Canadians access to fair and affordable financing. Purpose-driven work with real growth opportunities. Real stories from real Spring customers.
+  - main [ref=e47]:
+    - generic [ref=e49]:
+      - generic [ref=e52]:
+        - heading "The fastest personal loan in Canada" [level=1] [ref=e54]:
+          - text: The fastest personal loan
+          - text: in Canada
+        - paragraph [ref=e56]:
+          - generic [ref=e57]:
+            - text: Apply in just 3 minutes and get
+            - strong [ref=e58]: $500-$35,000
+            - text: e‑Transferred as soon as today.
+        - form "Hero Form" [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63] [cursor=pointer]: Email Address
+              - textbox "Email Address" [ref=e64]:
+                - /placeholder: name@example.com
+            - generic [ref=e67]:
+              - checkbox "Receive promotions and updates from Spring Financial. It’s free and you can opt-out at any time. By clicking \"Apply Now\" you agree to the Terms and Conditions and Privacy Policy." [ref=e68] [cursor=pointer]
+              - generic [ref=e69] [cursor=pointer]:
+                - text: Receive promotions and updates from Spring Financial. It’s free and you can opt-out at any time. By clicking "Apply Now" you agree to the
+                - link "Terms and Conditions" [ref=e70]:
+                  - /url: https://springfinancial.ca/general-terms-of-service/
+                - text: and
+                - link "Privacy Policy" [ref=e71]:
+                  - /url: https://springfinancial.ca/privacy-policy/
+                - text: .
+            - paragraph [ref=e73]: Applying won’t affect your credit score.
+            - button "Apply Now" [ref=e75] [cursor=pointer]:
+              - generic [ref=e77]: Apply Now
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e85]:
+            - img [ref=e88]
+            - heading "COMPETITIVE RATES" [level=6] [ref=e93]
+          - heading "Pay less in interest with rates starting from 9.99%.*" [level=4] [ref=e95]:
+            - text: Pay less in interest with rates starting from 9.99%.
+            - superscript [ref=e96]: "*"
+        - generic [ref=e97]:
+          - generic [ref=e99]:
+            - img [ref=e102]
+            - heading "SECURE APPLICATION" [level=6] [ref=e107]
+          - heading "Apply online safely with no waiting and no branch visits." [level=4] [ref=e109]
+        - generic [ref=e110]:
+          - generic [ref=e112]:
+            - img [ref=e115]
+            - heading "ALL CREDIT WELCOME" [level=6] [ref=e120]
+          - heading "We know that you’re more than your credit score." [level=4] [ref=e122]
+      - generic [ref=e124]:
+        - link "Apply Now" [ref=e128] [cursor=pointer]:
+          - /url: https://www.springfinancial.ca/apply/personal-loans
+          - generic [ref=e130]: Apply Now
+        - generic [ref=e131]:
+          - heading "A loan that’s built to fit your life" [level=2] [ref=e133]
+          - paragraph [ref=e135]: From major purchases to emergency expenses, and everything in-between.
+          - generic "Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys" [ref=e137]:
+            - group [ref=e138]:
+              - generic "Debt Consolidation" [ref=e139] [cursor=pointer]:
+                - heading "Debt Consolidation" [level=5] [ref=e141]
+                - img [ref=e144]
+              - region "Debt Consolidation Facing multiple debts? A debt consolidation loan rolls your debts into one simple, fixed payment. Save money, simplify your payments, and take control of your finances." [ref=e146]:
+                - paragraph [ref=e148]: Facing multiple debts? A debt consolidation loan rolls your debts into one simple, fixed payment. Save money, simplify your payments, and take control of your finances.
+            - group [ref=e149]:
+              - generic "Vehicle Repairs" [ref=e150] [cursor=pointer]:
+                - heading "Vehicle Repairs" [level=5] [ref=e152]
+                - img [ref=e155]
+            - group [ref=e157]:
+              - generic "Medical & Dental" [ref=e158] [cursor=pointer]:
+                - heading "Medical & Dental" [level=5] [ref=e160]
+                - img [ref=e163]
+            - group [ref=e165]:
+              - generic "Special Occasions" [ref=e166] [cursor=pointer]:
+                - heading "Special Occasions" [level=5] [ref=e168]
+                - img [ref=e171]
+            - group [ref=e173]:
+              - generic "Major Purchases" [ref=e174] [cursor=pointer]:
+                - heading "Major Purchases" [level=5] [ref=e176]
+                - img [ref=e179]
+            - group [ref=e181]:
+              - generic "Emergency Needs" [ref=e182] [cursor=pointer]:
+                - heading "Emergency Needs" [level=5] [ref=e184]
+                - img [ref=e187]
+      - generic [ref=e190]:
+        - generic [ref=e192]:
+          - heading "Loans and credit tools – for Canadians, by Canadians" [level=2] [ref=e194]
+          - paragraph [ref=e196]: From immediate cash needs to long-term stability, explore practical options tailored to help you move forward financially.
+          - link [ref=e198] [cursor=pointer]:
+            - /url: https://www.google.com/search?sca_esv=2da0fcebb3bfa148&rlz=1C5CHFA_enCA1165CA1166&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E9TjrhvhjUJ0O3d0B8PePKJ9BRcf7BNZS-8G9SMaVutjmk-LJ1GgerPWCfGnbTuEo4TaI1n8A75Z9y21Lbji_NR61j1HSFjkqXUTDW1v2WAGRsoprw%3D%3D&q=Spring+Financial+Reviews&sa=X&ved=2ahUKEwid4qfVg5ORAxWREDQIHVg2FFsQ0bkNegQIKxAE&biw=1710&bih=981&dpr=2
+          - link "Get a Loan Quote" [ref=e200] [cursor=pointer]:
+            - /url: https://www.springfinancial.ca/apply/personal-loans
+            - generic [ref=e202]: Get a Loan Quote
+        - generic [ref=e204]:
+          - region "Carousel" [ref=e205]:
+            - generic [ref=e206]:
+              - group "1 / 4" [ref=e207]:
+                - generic [ref=e210]:
+                  - generic [ref=e212]:
+                    - img [ref=e215]
+                    - heading "Personal Loan" [level=5] [ref=e219]
+                  - generic [ref=e220]:
+                    - paragraph [ref=e222]: Handle life’s expenses without the stress. Apply online in minutes and get your money quickly, often the same day.
+                    - list [ref=e224]:
+                      - listitem [ref=e225]:
+                        - img [ref=e227]
+                        - generic [ref=e229]: $500 - $35,000 loan amounts
+                      - listitem [ref=e230]:
+                        - img [ref=e232]
+                        - generic [ref=e234]:
+                          - text: 9.99%
+                          - superscript [ref=e235]: "*"
+                          - text: starting rate
+                      - listitem [ref=e236]:
+                        - img [ref=e238]
+                        - generic [ref=e240]: 6 to 84 month payment terms
+                      - listitem [ref=e241]:
+                        - img [ref=e243]
+                        - generic [ref=e245]: All credit scores welcome
+                    - link "Learn More" [ref=e247] [cursor=pointer]:
+                      - /url: https://springfinancial.ca/personal-loans/
+                      - generic [ref=e249]: Learn More
+              - group [ref=e250]:
+                - generic [ref=e253]:
+                  - generic [ref=e255]:
+                    - img [ref=e258]
+                    - heading [level=5] [ref=e262]: The Foundation
+                  - generic [ref=e263]:
+                    - paragraph [ref=e265]: Build a positive payment history, save for emergencies, and earn a guaranteed loan* offer at the end. All in one program.
+                    - list [ref=e267]:
+                      - listitem [ref=e268]:
+                        - img [ref=e270]
+                        - generic [ref=e272]: 100% approval
+                      - listitem [ref=e273]:
+                        - img [ref=e275]
+                        - generic [ref=e277]: Payments reported to credit bureaus
+                      - listitem [ref=e278]:
+                        - img [ref=e280]
+                        - generic [ref=e282]: Unlock a $1,500 guaranteed loan* when you’re done
+                    - link [ref=e284] [cursor=pointer]:
+                      - /url: https://springfinancial.ca/foundation/
+                      - generic [ref=e286]: Learn More
+              - group [ref=e287]:
+                - generic [ref=e290]:
+                  - generic [ref=e292]:
+                    - img [ref=e295]
+                    - heading [level=5] [ref=e303]: Private Sales Financing
+                  - generic [ref=e304]:
+                    - paragraph [ref=e306]: Finance any vehicle without delay. Cars, trucks, motorcycles, and powersports from private sellers or dealerships.
+                    - list [ref=e308]:
+                      - listitem [ref=e309]:
+                        - img [ref=e311]
+                        - generic [ref=e313]: Funding as soon as the same day
+                      - listitem [ref=e314]:
+                        - img [ref=e316]
+                        - generic [ref=e318]: 12 to 180 month payment terms
+                      - listitem [ref=e319]:
+                        - img [ref=e321]
+                        - generic [ref=e323]: All credit scores welcome
+                    - link [ref=e325] [cursor=pointer]:
+                      - /url: https://springfinancial.ca/private-sales/
+                      - generic [ref=e327]: Learn More
+              - group [ref=e328]:
+                - generic [ref=e331]:
+                  - generic [ref=e333]:
+                    - img [ref=e336]
+                    - heading [level=5] [ref=e340]: Mortgages
+                  - generic [ref=e341]:
+                    - paragraph [ref=e343]: Start your path to home ownership or make the most of your home’s equity – unlock up to 80% without the stress.
+                    - list [ref=e345]:
+                      - listitem [ref=e346]:
+                        - img [ref=e348]
+                        - generic [ref=e350]: Access up to 80% of your home’s value
+                      - listitem [ref=e351]:
+                        - img [ref=e353]
+                        - generic [ref=e355]: All credit backgrounds welcome
+                      - listitem [ref=e356]:
+                        - img [ref=e358]
+                        - generic [ref=e360]: Personalized support from experienced mortgage agents
+                    - link [ref=e362] [cursor=pointer]:
+                      - /url: https://springfinancial.ca/mortgages/
+                      - generic [ref=e364]: Learn More
+          - button "Previous slide" [disabled] [ref=e365] [cursor=pointer]:
+            - img [ref=e366]
+          - button "Next slide" [ref=e368] [cursor=pointer]:
+            - img [ref=e369]
+      - link "Get a Loan Quote" [ref=e384] [cursor=pointer]:
+        - /url: https://www.springfinancial.ca/apply/personal-loans
+        - generic [ref=e386]: Get a Loan Quote
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - group "1 / 4" [ref=e389]:
+            - generic [ref=e392]:
+              - heading "Make it happen in 3 simple steps" [level=2] [ref=e394]
+              - paragraph [ref=e396]: Because borrowing money shouldn’t be complicated.
+              - link "Apply Now" [ref=e398] [cursor=pointer]:
+                - /url: https://www.springfinancial.ca/apply/personal-loans
+                - generic [ref=e400]: Apply Now
+          - group "2 / 4" [ref=e401]:
+            - generic [ref=e404]:
+              - heading "1. Tell us about yourself" [level=2] [ref=e406]
+              - paragraph [ref=e408]: "Just the basics: Your name, contact info, and a few quick details."
+              - link "Apply Now" [ref=e410] [cursor=pointer]:
+                - /url: https://www.springfinancial.ca/apply/personal-loans
+                - generic [ref=e412]: Apply Now
+          - group "3 / 4" [ref=e413]:
+            - generic [ref=e416]:
+              - heading "2. Pick your loan amount" [level=2] [ref=e418]
+              - paragraph [ref=e420]: Choose how much you need. We’ll show you what you qualify for.
+              - link "Apply Now" [ref=e422] [cursor=pointer]:
+                - /url: https://www.springfinancial.ca/apply/personal-loans
+                - generic [ref=e424]: Apply Now
+          - group "4 / 4" [ref=e425]:
+            - generic [ref=e428]:
+              - heading "3. Get approved" [level=2] [ref=e430]
+              - paragraph [ref=e432]: Once you’re approved, we’ll e-Transfer the funds directly into your account.
+              - link "Apply Now" [ref=e434] [cursor=pointer]:
+                - /url: https://www.springfinancial.ca/apply/personal-loans
+                - generic [ref=e436]: Apply Now
+        - generic "Slide navigation" [ref=e438]:
+          - button "Previous slide" [disabled]:
+            - img "Up"
+          - button "Next slide" [ref=e439] [cursor=pointer]:
+            - img "Down" [ref=e440]
+      - heading "FEATURED IN" [level=6] [ref=e446]
+      - generic [ref=e454]:
+        - generic [ref=e455]:
+          - generic [ref=e456]:
+            - heading "Financial wins from people like you" [level=2] [ref=e458]
+            - paragraph [ref=e460]: We offer 5-star services that have earned us over 17,000 positive reviews across Canada. Not bad, eh?
+          - link "Apply Now" [ref=e463] [cursor=pointer]:
+            - /url: https://www.springfinancial.ca/apply/personal-loans
+            - generic [ref=e465]: Apply Now
+        - generic [ref=e467]:
+          - region "Carousel" [ref=e468]:
+            - generic [ref=e469]:
+              - group "1 / 6" [ref=e470]:
+                - generic [ref=e473]:
+                  - generic [ref=e475]:
+                    - img [ref=e478]
+                    - heading "$8,500" [level=4] [ref=e482]
+                  - img [ref=e486]
+                  - generic [ref=e488]:
+                    - paragraph [ref=e490]: I was in need of emergency financial assistance, and Spring assisted me with funds in record breaking time, they gave me an affordable repayment plan. I am so grateful to them and would recommend you give them a try.
+                    - paragraph [ref=e494]: Bobby on Google
+              - group [ref=e495]:
+                - generic [ref=e498]:
+                  - generic [ref=e500]:
+                    - img [ref=e503]
+                    - heading [level=4] [ref=e507]: $3,350
+                  - img [ref=e511]
+                  - generic [ref=e513]:
+                    - paragraph [ref=e515]: I was able to get a loan against all odds with a young credit history, high credit utilization, and a low bank balance. I was approved when I needed it most. Their process was smooth and professional. I’m truly grateful!
+                    - paragraph [ref=e519]: Emmanuel on TrustPilot
+              - group [ref=e520]:
+                - generic [ref=e523]:
+                  - generic [ref=e525]:
+                    - img [ref=e528]
+                    - heading [level=4] [ref=e532]: $5,000
+                  - img [ref=e536]
+                  - generic [ref=e538]:
+                    - paragraph [ref=e540]: Spring Financial deserves every bit of praise I can give them. After being turned down by multiple banks and feeling completely defeated, Spring Financial gave me hope when I had none. Highly recommend.
+                    - paragraph [ref=e544]: Don on Google
+              - group [ref=e545]:
+                - generic [ref=e548]:
+                  - generic [ref=e550]:
+                    - img [ref=e553]
+                    - heading [level=4] [ref=e557]: $9,500
+                  - img [ref=e561]
+                  - generic [ref=e563]:
+                    - paragraph [ref=e565]: They made it very easy to get the loan I was looking for. They are very courteous, professional, and communication was very good. They made sure I understood all terms and options. I can’t recommend them enough.
+                    - paragraph [ref=e569]: Andrew on Google
+              - group [ref=e570]:
+                - generic [ref=e573]:
+                  - generic [ref=e575]:
+                    - img [ref=e578]
+                    - heading [level=4] [ref=e582]: $2,500
+                  - img [ref=e586]
+                  - generic [ref=e588]:
+                    - paragraph [ref=e590]: With a relatively low credit score and high ratio utilization I was able to get a loan in the amount I needed now. I would recommend Spring Financial to anyone who wants to improve cash flow and credit score.
+                    - paragraph [ref=e594]: Igor on Google
+              - group [ref=e595]:
+                - generic [ref=e598]:
+                  - generic [ref=e600]:
+                    - img [ref=e603]
+                    - heading [level=4] [ref=e607]: $6,000
+                  - img [ref=e611]
+                  - generic [ref=e613]:
+                    - paragraph [ref=e615]: Thanks for the help Spring Financial! I built up credit and at the same time I got through a tight spot. It’s fast and easy to apply for a personal loan.
+                    - paragraph [ref=e619]: Reddy on Google
+          - button "Previous slide" [disabled] [ref=e620] [cursor=pointer]:
+            - img [ref=e621]
+          - button "Next slide" [ref=e623] [cursor=pointer]:
+            - img [ref=e624]
+      - heading "A better way to borrow" [level=2] [ref=e628]
+      - generic [ref=e630]:
+        - generic [ref=e632]:
+          - heading "FULLY ONLINE" [level=6] [ref=e636]
+          - heading "Apply, get approved, and receive funds without ever leaving home." [level=4] [ref=e638]
+          - link "Apply Now" [ref=e640] [cursor=pointer]:
+            - /url: https://www.springfinancial.ca/apply/personal-loans
+            - generic [ref=e642]: Apply Now
+        - generic [ref=e644]:
+          - generic [ref=e646]:
+            - img [ref=e649]
+            - heading "BORROW YOUR WAY" [level=6] [ref=e653]
+          - heading "Borrow what you need, from $500 for smaller needs to $35,000 for major expenses." [level=4] [ref=e655]
+        - generic [ref=e656]:
+          - generic [ref=e658]:
+            - img [ref=e661]
+            - heading "QUICK FUNDS" [level=6] [ref=e666]
+          - heading "Get e-Transferred as soon as the same day you apply." [level=4] [ref=e668]
+        - generic [ref=e669]:
+          - generic [ref=e671]:
+            - img [ref=e674]
+            - heading "LOW, EASY PAYMENTS" [level=6] [ref=e681]
+          - heading "Terms from 6 to 84 months and rates starting at 9.99%*" [level=4] [ref=e683]:
+            - text: Terms from 6 to 84 months and rates starting at 9.99%
+            - superscript [ref=e684]: "*"
+        - generic [ref=e685]:
+          - generic [ref=e687]:
+            - img [ref=e690]
+            - heading "NO CREDIT BARRIERS" [level=6] [ref=e696]
+          - heading "No matter your credit score, we have a solution." [level=4] [ref=e698]
+      - heading "Terms Rates Service Credit Offers Access Terms" [level=3] [ref=e826]:
+        - list [ref=e712]:
+          - listitem [ref=e718]: Terms
+          - listitem [ref=e827]: Rates
+          - listitem [ref=e828]: Service
+          - listitem [ref=e829]: Credit
+          - listitem [ref=e830]: Offers
+          - listitem [ref=e831]: Access
+          - listitem [ref=e832]: Terms
+  - contentinfo [ref=e720]:
+    - generic [ref=e722]:
+      - link [ref=e725] [cursor=pointer]:
+        - /url: https://springfinancial.ca
+      - generic [ref=e726]:
+        - generic [ref=e727]:
+          - paragraph [ref=e729]: Products
+          - navigation "Menu" [ref=e731]:
+            - list [ref=e732]:
+              - listitem [ref=e733]:
+                - link "Personal Loans" [ref=e734] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/personal-loans/
+              - listitem [ref=e735]:
+                - link "The Foundation" [ref=e736] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/foundation/
+              - listitem [ref=e737]:
+                - link "Private Sales" [ref=e738] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/private-sales/
+              - listitem [ref=e739]:
+                - link "Mortgages" [ref=e740] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/mortgages/
+        - generic [ref=e741]:
+          - paragraph [ref=e743]: Company
+          - navigation "Menu" [ref=e745]:
+            - list [ref=e746]:
+              - listitem [ref=e747]:
+                - link "Who We Are" [ref=e748] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/about-spring-financial/
+              - listitem [ref=e749]:
+                - link "Careers" [ref=e750] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/careers/
+              - listitem [ref=e751]:
+                - link "Reviews" [ref=e752] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/reviews/
+        - generic [ref=e753]:
+          - paragraph [ref=e755]: Discover
+          - navigation "Menu" [ref=e757]:
+            - list [ref=e758]:
+              - listitem [ref=e759]:
+                - link "Blog" [ref=e760] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/blog/
+              - listitem [ref=e761]:
+                - link "Help Centre" [ref=e762] [cursor=pointer]:
+                  - /url: https://springfinancial.ca/help-centre/
+        - generic [ref=e763]:
+          - paragraph [ref=e765]: Connect
+          - list [ref=e767]:
+            - listitem [ref=e768]:
+              - link "Facebook" [ref=e769] [cursor=pointer]:
+                - /url: https://www.facebook.com/springfinancial/
+                - img [ref=e771]
+                - generic [ref=e773]: Facebook
+            - listitem [ref=e774]:
+              - link "Instagram" [ref=e775] [cursor=pointer]:
+                - /url: https://www.instagram.com/springfinancial.ca/
+                - img [ref=e777]
+                - generic [ref=e779]: Instagram
+            - listitem [ref=e780]:
+              - link "Linkedin" [ref=e781] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/spring-financial
+                - img [ref=e783]
+                - generic [ref=e785]: Linkedin
+            - listitem [ref=e786]:
+              - link "TikTok" [ref=e787] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@springfinancial
+                - img [ref=e789]
+                - generic [ref=e791]: TikTok
+    - generic [ref=e793]:
+      - generic [ref=e794]:
+        - paragraph [ref=e795]:
+          - text: "License:"
+          - strong [ref=e796]:
+            - link "#349123" [ref=e799] [cursor=pointer]:
+              - /url: https://springfinancial.ca/wp-content/uploads/2025/11/license2025.614f1c1.png
+        - paragraph [ref=e800]:
+          - superscript [ref=e801]: "*"
+          - text: Spring Financial Inc. provides loans up to $35,000 with interest rates ranging from 9.99% to 34.95%, and APRs ranging from 9.99% to 35.00%, with terms from 6 to 84 months. Your actual rate will depend on a variety of factors such as your credit score and the loan amount. An example of borrowing costs paid on a $5,000 loan with a 48 month term at 9.99% APR is a Weekly payment of $29.17, with the total repayment amount of principal and interest being $6,066.48 and the total cost of the loan (interest only) being $1,066.48.
+        - paragraph [ref=e802]: To qualify for The Foundation, you must have an active account with a bank or financial institution, as approved by Spring Financial, and a valid government-issued Canadian ID. The Foundation is available in all provinces except Saskatchewan and New Brunswick. Results from The Foundation depend on the individual. All guarantee references are made in connection to the Evergreen Loan. To qualify for the Evergreen Loan, you must first successfully complete 12 months on The Foundation and save $750, have an active account with a bank or financial institution, as approved by Spring Financial, and a valid government-issued Canadian ID. Your savings component will be automatically held in trust for you. Individual results may vary. Other credit score factors, including late payments, activity with your other tradelines and credit utilization may impact results.
+        - paragraph [ref=e803]: "Auto financing (Private Sales): Spring Financial provides financing for up to $75,000 with interest rates ranging from 11.90% to 29.90%, and APRs from 12.90% to 35.00%, with terms from 36 to 84 months. Your actual rate will depend on a variety of factors such as your credit score and the financing amount. An example of borrowing costs paid on a $5,000 financing with a 48 month term at 12.90% APR is a Weekly payment of $30.77, with the total repayment amount of principal and interest being $6,400.29 and the total cost of the financing (interest only) being $1,400.29."
+        - paragraph [ref=e804]: "Powersports financing (Private Sales): Spring Financial provides powersports vehicle financing for up to $75,000 with interest rates ranging from 8.99% to 29.99%, and APRs from 8.99% to 34.95%, with terms from 12 to 180 months. Your actual rate will depend on a variety of factors such as your credit score and the financing amount. An example of borrowing costs paid on a $5,000 financing with a 48 month term at 9.99% APR is a Weekly payment of $29.17, with the total repayment amount of principal and interest being $6,066.48 and the total cost of the financing (interest only) being $1,066.48."
+      - paragraph [ref=e806]: Spring Financial Inc. is headquartered at Suite 600, Two Bentall Centre, 555 Burrard Street, Vancouver, British Columbia, Canada, V7X 1M8.
+      - list [ref=e808]:
+        - listitem [ref=e809]:
+          - generic [ref=e810]: Copyright © 2026 Spring Financial Inc. All rights reserved. Spring Financial Inc. and its loans are not affiliated with any credit bureaus.
+      - list [ref=e812]:
+        - listitem [ref=e813]:
+          - link "Privacy Policy" [ref=e814] [cursor=pointer]:
+            - /url: https://springfinancial.ca/privacy-policy/
+            - generic [ref=e815]: Privacy Policy
+        - listitem [ref=e816]:
+          - link "General Terms" [ref=e817] [cursor=pointer]:
+            - /url: https://springfinancial.ca/general-terms-of-service/
+            - generic [ref=e818]: General Terms
+        - listitem [ref=e819]:
+          - link "Website Terms of Use" [ref=e820] [cursor=pointer]:
+            - /url: https://springfinancial.ca/website-terms-of-use/
+            - generic [ref=e821]: Website Terms of Use
+        - listitem [ref=e822]:
+          - link "Help Centre" [ref=e823] [cursor=pointer]:
+            - /url: https://springfinancial.ca/help-centre
+            - generic [ref=e824]: Help Centre
+  - generic [ref=e825]: desktop
+  - img "Chat" [ref=e834] [cursor=pointer]

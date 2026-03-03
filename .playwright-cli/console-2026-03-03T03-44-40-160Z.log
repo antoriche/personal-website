@@ -1,0 +1,4 @@
+[    1573ms] [WARNING] [capture-email] Form not found: form#submit_email_personal_loan @ https://springfinancial.ca/wp-content/themes/blocksy-child/js/marketing-site-scripts.js?v=1.2.0:121
+[    1573ms] [WARNING] [capture-email] Form not found: form#homepage-bottom-email-form @ https://springfinancial.ca/wp-content/themes/blocksy-child/js/marketing-site-scripts.js?v=1.2.0:121
+[    1592ms] [WARNING] [Meta Pixel] - Multiple pixels with conflicting versions were detected on this page. @ https://connect.facebook.net/en_US/fbevents.js:175
+[    1866ms] [WARNING] [Meta Pixel] - You are attempting to send an unverified event. The event was suppressed. Go to Events Manager to learn more. @ https://connect.facebook.net/en_US/fbevents.js:175
