@@ -1,0 +1,252 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "AR." [ref=e4] [cursor=pointer]:
+        - /url: "#hero"
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [active] [ref=e7] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e8]:
+          - link "Career" [ref=e9] [cursor=pointer]:
+            - /url: "#career"
+        - listitem [ref=e10]:
+          - link "Skills" [ref=e11] [cursor=pointer]:
+            - /url: "#skills"
+        - listitem [ref=e12]:
+          - link "Projects" [ref=e13] [cursor=pointer]:
+            - /url: "#projects"
+        - listitem [ref=e14]:
+          - link "Contact" [ref=e15] [cursor=pointer]:
+            - /url: "#contact"
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - img "Antonin Riche" [ref=e19]
+      - paragraph [ref=e20]: Hi there, I'm
+      - heading "Antonin Riche." [level=1] [ref=e21]
+      - heading "Full-Stack Engineer" [level=2] [ref=e266]
+      - paragraph [ref=e23]: "I've been building software at startups for 5+ years. I like working across the stack: frontends, APIs, infrastructure. Most of my recent work involves integrating AI into products. I prefer small teams where everyone owns their part and ships fast."
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link "GitHub" [ref=e26] [cursor=pointer]:
+            - /url: https://github.com/antoriche
+            - img [ref=e27]
+          - link "LinkedIn" [ref=e29] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/antonin-riche-a62b97145
+            - img [ref=e30]
+          - link "Email" [ref=e32] [cursor=pointer]:
+            - /url: mailto:antoriche.ar@gmail.com
+            - img [ref=e33]
+        - link "Resume" [ref=e35] [cursor=pointer]:
+          - /url: Resume Antonin Riche - 2025.pdf
+          - img [ref=e36]
+          - text: Resume
+    - generic:
+      - link "Scroll down":
+        - /url: "#about"
+      - text: Scroll
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]: 01 / About
+      - heading "Who I Am" [level=2] [ref=e45]
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - img [ref=e50]
+        - generic [ref=e54]:
+          - text: 🇨🇦
+          - generic [ref=e55]: Vancouver
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: I got into software because I wanted to build things people actually use — not just write code for the sake of it.
+        - paragraph [ref=e58]: "Most of my career has been at early-stage companies where the gap between \"idea\" and \"shipped product\" is short. I've found that's where I do my best work: picking up whatever needs doing, whether that's wiring up a frontend, designing an API, or figuring out how to get a data scientist's model running in production."
+        - paragraph [ref=e59]: I moved from Brussels to Vancouver in 2025. Currently based here and open to on-site, hybrid, or remote roles across North America.
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - strong [ref=e62]: Brussels → YVR
+            - text: Relocated 2025
+          - generic [ref=e63]:
+            - strong [ref=e64]: Startup
+            - text: Environment
+          - generic [ref=e65]:
+            - strong [ref=e66]: Eng + Data
+            - text: Bridge Builder
+        - link "Get in Touch" [ref=e67] [cursor=pointer]:
+          - /url: mailto:antoriche.ar@gmail.com
+  - generic [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]: 02 / Career
+      - heading "Where I've Worked" [level=2] [ref=e72]
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - img "Jetpack.ai" [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - heading "Jetpack.ai" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Software Engineer
+          - generic [ref=e81]:
+            - generic [ref=e82]: Oct 2019 — May 2025
+            - generic [ref=e83]: Brussels, Belgium
+        - paragraph [ref=e84]: Built and maintained applications in operational analytics, turning raw client data into actionable insights. Worked side-by-side with data scientists to bring ML models into production across high-stakes industries.
+        - list [ref=e85]:
+          - listitem [ref=e86]: → Developed and delivered operational analytics applications end-to-end
+          - listitem [ref=e87]: → Collaborated closely with data scientists to integrate AI models with client data
+          - listitem [ref=e88]: → Focused on frontend development, RESTful API design, and cloud deployment
+          - listitem [ref=e89]: → Partnered with Energy, Airport management, and Military sectors
+        - generic [ref=e90]:
+          - generic [ref=e91]: React
+          - generic [ref=e92]: Node
+          - generic [ref=e93]: AWS
+          - generic [ref=e94]: Data Vizualization
+      - generic [ref=e95]:
+        - img "Spring Financial" [ref=e97]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - heading "Spring Financial" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Frontend Engineer
+          - generic [ref=e102]:
+            - generic [ref=e103]: Jan 2026 — Present
+            - generic [ref=e104]: Vancouver, Canada
+        - paragraph [ref=e105]: Helping every Canadian get access to loan services. I work on unifying the customer experience across partner channels — from application to approval — while shipping analytics tooling and modernizing the stack for AI-assisted workflows.
+        - list [ref=e106]:
+          - listitem [ref=e107]: → Unifying the customer experience to provide loans through multiple partners
+          - listitem [ref=e108]: → Collaborating with designers to provide seamless interfaces
+          - listitem [ref=e109]: → Implementing analytics tools to understand where customers drop across the acquisition funnel
+          - listitem [ref=e110]: → Modernizing the frontend stack to work efficiently with AI tools
+        - generic [ref=e111]:
+          - generic [ref=e112]: Vue.js
+          - generic [ref=e113]: Tailwind
+          - generic [ref=e114]: Figma
+          - generic [ref=e115]: UI/UX
+          - generic [ref=e116]: Copilot
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - generic [ref=e120]: 03 / Skills
+      - heading "What I Work With" [level=2] [ref=e121]
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - heading "Frontend" [level=3] [ref=e127]
+        - list [ref=e128]:
+          - listitem [ref=e129]: → React / Next.js
+          - listitem [ref=e130]: → TypeScript
+          - listitem [ref=e131]: → HTML5 & CSS3
+          - listitem [ref=e132]: → UI/UX Design
+      - generic [ref=e133]:
+        - img [ref=e135]
+        - heading "Backend" [level=3] [ref=e137]
+        - list [ref=e138]:
+          - listitem [ref=e139]: → Node.js / Python
+          - listitem [ref=e140]: → RESTful API Design
+          - listitem [ref=e141]: → PostgreSQL / MongoDB
+          - listitem [ref=e142]: → FastAPI / Express
+      - generic [ref=e143]:
+        - img [ref=e145]
+        - heading "AI Integration" [level=3] [ref=e147]
+        - list [ref=e148]:
+          - listitem [ref=e149]: → ML Model Integration
+          - listitem [ref=e150]: → Data Analytics
+          - listitem [ref=e151]: → AI-Powered Features
+          - listitem [ref=e152]: → Operational Analytics
+      - generic [ref=e153]:
+        - img [ref=e155]
+        - heading "DevOps" [level=3] [ref=e157]
+        - list [ref=e158]:
+          - listitem [ref=e159]: → Cloud Deployment
+          - listitem [ref=e160]: → Docker
+          - listitem [ref=e161]: → CI/CD Pipelines
+          - listitem [ref=e162]: → Git & Version Control
+    - generic [ref=e163]:
+      - generic [ref=e164]: "Tech I use daily:"
+      - generic [ref=e165]:
+        - generic [ref=e166]: React
+        - generic [ref=e167]: TypeScript
+        - generic [ref=e168]: Next.js
+        - generic [ref=e169]: Node.js
+        - generic [ref=e170]: Python
+        - generic [ref=e171]: PostgreSQL
+        - generic [ref=e172]: Docker
+        - generic [ref=e173]: FastAPI
+        - generic [ref=e174]: REST APIs
+  - generic [ref=e176]:
+    - generic [ref=e177]:
+      - generic [ref=e178]: 04 / Projects
+      - heading "Featured Work" [level=2] [ref=e179]
+    - generic [ref=e180]:
+      - article [ref=e181]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]: React
+            - generic [ref=e187]: Node.js
+            - generic [ref=e188]: AI/ML
+          - heading "Loan Automation System" [level=3] [ref=e189]
+          - paragraph [ref=e190]: Automated loan decision and application process for Spring Financial, improving efficiency and accessibility for Canadian customers.
+          - link "Spring Financial" [ref=e192] [cursor=pointer]:
+            - /url: https://spring.ca
+      - article [ref=e193]:
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]: Python
+            - generic [ref=e199]: Analytics
+          - heading "Operational Analytics" [level=3] [ref=e200]
+          - paragraph [ref=e201]: Developed applications integrating AI models with client data for operational analytics in Energy and Airport management sectors.
+      - article [ref=e202]:
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: TypeScript
+            - generic [ref=e208]: REST API
+          - heading "Data Integration Platform" [level=3] [ref=e209]
+          - paragraph [ref=e210]: Built scalable RESTful APIs and cloud deployment solutions for multiple enterprise clients across various industries.
+      - article [ref=e211]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: Full-Stack
+            - generic [ref=e217]: Cloud
+          - heading "Open Source Contributions" [level=3] [ref=e218]
+          - paragraph [ref=e219]: Active contributor to open-source projects, focusing on developer tools and full-stack applications.
+          - link "GitHub" [ref=e221] [cursor=pointer]:
+            - /url: https://github.com/antoriche
+    - link "View All on GitHub →" [ref=e223] [cursor=pointer]:
+      - /url: https://github.com/antoriche
+  - generic [ref=e225]:
+    - generic [ref=e226]:
+      - generic [ref=e227]: 05 / Contact
+      - heading "Let's Work Together" [level=2] [ref=e228]
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - paragraph [ref=e231]: I'm currently open to new opportunities — freelance projects, full-time roles, or just a friendly chat about tech and AI.
+        - list [ref=e232]:
+          - listitem [ref=e233]:
+            - img [ref=e234]
+            - link "antoriche.ar@gmail.com" [ref=e236] [cursor=pointer]:
+              - /url: mailto:antoriche.ar@gmail.com
+          - listitem [ref=e237]:
+            - img [ref=e238]
+            - link "+1 (236) 512-9838" [ref=e240] [cursor=pointer]:
+              - /url: tel:+12365129838
+          - listitem [ref=e241]:
+            - img [ref=e242]
+            - generic [ref=e245]: Vancouver, Canada
+      - generic [ref=e246]:
+        - generic [ref=e247]:
+          - generic [ref=e248]: Name
+          - textbox "Name" [ref=e249]:
+            - /placeholder: Jane Doe
+        - generic [ref=e250]:
+          - generic [ref=e251]: Email
+          - textbox "Email" [ref=e252]:
+            - /placeholder: jane@example.com
+        - generic [ref=e253]:
+          - generic [ref=e254]: Message
+          - textbox "Message" [ref=e255]:
+            - /placeholder: Tell me about your project…
+        - button "Send Message" [ref=e256] [cursor=pointer]
+        - paragraph [ref=e257]
+  - contentinfo [ref=e258]:
+    - generic [ref=e259]:
+      - paragraph [ref=e260]:
+        - text: Designed & Built by
+        - strong [ref=e261]: Antonin Riche
+        - text: with
+        - strong [ref=e262]:
+          - img [ref=e263]
+          - text: GitHub Copilot
+      - paragraph [ref=e265]: © 2026 — All rights reserved.
